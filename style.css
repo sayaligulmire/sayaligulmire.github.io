@@ -1,0 +1,116 @@
+*{
+box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font: poppins;
+}
+
+#main {
+ width: 100%;
+ height: 58vh; 
+ position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   background-color: white;
+   box-shadow: 5px 10px 30px rgba(0,0,0,0.02);
+  z-index: 1;
+}
+
+.logo img{
+  height: 80px;
+}
+
+.menu{
+  list-style: none;
+  display: flex;
+}
+
+.menu li a{
+  height: 45px;
+  line-height: 43px;
+  margin: 3px;
+  padding: 0px 22px;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: rgb(110, 65, 121);
+}
+
+a {
+  text-decoration: none;
+}
+.hey{
+  color: rgb(49, 15, 49);
+  font-weight: 500;
+  font-size: 0.9em;
+  border-bottom: 2px solid rgb(15, 3, 15);
+}
+
+.imgage{
+  width: 500px;
+  height: 500px;
+}
+.image img{
+  width: 50%;
+  height: 5%;
+  object-fit: contain;
+}
+
+.content{
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%,-50%);
+  
+  }
+  .main-text{
+    width: 35em;
+  }
+  .main-text h1{
+    font-size: 0.9cm;
+    color: rgb(74, 22, 119);
+    margin: 0px 0px 10px 0px;
+    line-height: 50px;
+
+  }
+
+  .main-text p{
+    color: rgb(148, 124, 148);
+  }
+  .resume-btn{
+    width: 150px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(133, 72, 173);
+    border-radius: 20px;
+    box-shadow: 5px 10px 30px rgb(110, 58, 145);
+  }
+  .resume-btn:hover{
+    background-color: rgb(145, 95, 179);
+    transition: all ease 0.2;
+  }
+  .menu li a:hover{
+     background-color: rgb(145, 95, 179);
+     color: white;
+     box-shadow: 5px 10px 30px rgb(110, 58, 145);
+    transition: all ease 0.2;
+  }
